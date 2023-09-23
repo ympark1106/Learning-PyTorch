@@ -118,3 +118,9 @@ print(ft.view(1, -1).shape)
 print(ft.unsqueeze(1)) # 1 -> dim = 1 과 동일 / 차원 크기 (3, 1)
 print(ft.unsqueeze(1).shape)
 # %%
+#Type Casting -> tensor의 형변환
+lt = torch.LongTensor([1,2,3,4])
+print(lt)
+# %%
+print(lt.float())
+# %%
